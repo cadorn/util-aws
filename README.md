@@ -7,7 +7,7 @@ Tools for working with [Amazon Web Services](http://aws.amazon.com/).
 Packages
 ========
 
-  * [aws](packages/aws/)
+  * [aws](http://github.com/cadorn/util-aws/tree/master/packages/aws/)
 
 
 
