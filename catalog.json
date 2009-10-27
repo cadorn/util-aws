@@ -1,0 +1,10 @@
+{
+    "schema": "1.1",
+    "location": "http://github.com/cadorn/util-aws/raw/master/catalog.json",
+    "packages": {
+        "aws": {
+            "location": "http://github.com/cadorn/util-aws/zipball/master/",
+            "path": "packages/aws"
+        }
+    }
+}
