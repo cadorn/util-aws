@@ -1,0 +1,12 @@
+{
+    "name": "util-aws",
+    "dependencies": [
+        "narwhal"
+    ],
+    "using": {
+        "aws": {
+            "catalog": "http://github.com/cadorn/util-aws/raw/master/catalog.json",
+            "name": "aws"
+        }
+    }
+}
