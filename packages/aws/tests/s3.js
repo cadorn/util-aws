@@ -8,7 +8,7 @@ var FILE = require("file");
 
 var AUTH = require("auth");
 var S3 = require("s3");
-var KEYCHAIN = require("keychain", "github.com/cadorn/util-os/raw/master/osx");
+var KEYCHAIN = require("keychain", "util-os-osx");
 
 
 exports.testPut = function () {
@@ -22,7 +22,10 @@ exports.testPut = function () {
         KEYCHAIN.getPassword("test", "test-aws-secret-access-key")
     )
     
-    ASSERT.isTrue(S3.put(credentials, bucket, path, file));
+    ASSERT.isTrue(S3.put(credentials, bucket, path, file, {
+        "x-amz-acl": "private",
+        "Content-Type": "text/plain"
+    }));
 
 };
 

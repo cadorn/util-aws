@@ -2,8 +2,9 @@
     "name": "aws",
     "using": {
         "util-os-osx": {
-            "catalog": "http://github.com/cadorn/util-os/raw/master/catalog.json",
-            "name": "osx"
+            "catalog": "http://registry.pinf.org/cadorn.org/github/util-os/packages/catalog.json",
+            "name": "osx",
+            "revision": "master"
         }
     }
 }
